@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="{{ static_url('css/main.css')}}">
+    <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <script src = "{{ static_url('js/main.js')}}"></script>
+    <script src="{{ static_url('js/sweetalert.min.js')}}"></script>
+    <link rel="stylesheet" type="text/css" href="{{ static_url('css/sweetalert.css')}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Узнай город</title>
+</head>
+<body>
+<nav>
+    <div class="nav-wrapper">
+        <a href="#" class="brand-logo center">Узнай город мечты</a>
+    </div>
+</nav>
+<div class="container">
+    <div class = "result_picture_row row" align="center">
+        <div class = "col s6" align="right">
+            <img class = "result_picture__img result_picture__img__user" src="">
+        </div>
+        <div class = "col s6" align="left">
+            <img class = "result_picture__img result_picture__img__account"  src="">
+        </div>
+    </div>
+     <div class = "result_picture_row row" align="center">
+        <div class = "col s6" align="right">
+            <img class = "result_picture__img result_picture__img__user" src="">
+        </div>
+        <div class = "col s6" align="left">
+            <img class = "result_picture__img result_picture__img__account"  src="">
+        </div>
+    </div>
+     <div class = "result_picture_row row" align="center">
+        <div class = "col s6" align="right">
+            <img class = "result_picture__img result_picture__img__user" src="">
+        </div>
+        <div class = "col s6" align="left">
+            <img class = "result_picture__img result_picture__img__account"  src="">
+        </div>
+    </div>
+     <div class = "result_picture_row row" align="center">
+        <div class = "col s6" align="right">
+            <img class = "result_picture__img result_picture__img__user" src="">
+        </div>
+        <div class = "col s6" align="left">
+            <img class = "result_picture__img result_picture__img__account"  src="">
+        </div>
+    </div>
+     <div class = "result_picture_row row" align="center">
+        <div class = "col s6" align="right">
+            <img class = "result_picture__img result_picture__img__user" src="">
+        </div>
+        <div class = "col s6" align="left">
+            <img class = "result_picture__img result_picture__img__account"  src="">
+        </div>
+    </div>
+    <div class = "picture_row row">
+        <img src="{{ static_url('img/sun-cloudy-folded-icon.png')}}">
+    </div>
+    <div class = "recomend_row row">
+        <a class="recomend_button__main waves-effect waves-light btn">Показать рекомендации</a>
+        <div class = "row after_click">
+            <a class="after_click recomend_button__text waves-effect waves-light btn">
+                <input class = "recomend_button__text__input" type = "text" placeholder = "Ваш Instagram аккаунт">
+            </a>
+            <button class="after_click recomend_button__ok waves-effect waves-light btn">
+                <i class="large material-icons">done</i>
+            </button>
+        </div>
+    </div>
+    <div class = "preloader_row row">
+        <img src="{{ static_url('img/39.gif')}}">
+    </div>
+    <div class = "result_row row">
+        <a class="result_button waves-effect waves-light btn">
+            <span id = "result1"></span>
+        </a>
+        <a class="result_button waves-effect waves-light btn">
+            <span id = "result2"></span>
+        </a>
+        <a class="result_button waves-effect waves-light btn">
+            <span id = "result3"></span>
+        </a>
+    </div>
+    <div class = "more_row row">
+        <button class="more_row__button waves-effect waves-light btn">
+            <i class="large material-icons">replay</i>
+        </button>
+    </div>
+</div>
+
+</body>
+</html>

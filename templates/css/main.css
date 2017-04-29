@@ -1,0 +1,46 @@
+.picture_row, .result_picture_row{
+    text-align: center;
+    padding-top: 30px;
+}
+.recomend_row{
+    text-align: center;
+}
+.recomend_button__main{
+    width: 260px;
+    height: 50px;
+    font-size: 12px;
+    line-height: 50px;
+}
+.recomend_button__text{
+    width: 210px;
+    height: 50px;
+    font-size: 12px;
+    line-height: 50px;
+    padding: 0!important;
+}
+.recomend_button__text__input{
+    text-align: center;
+}
+.recomend_button__ok{
+    width: 50px;
+    height: 50px;
+    font-size: 12px;
+    line-height: 50px;
+    padding: 0!important;
+}
+.preloader_row{
+    text-align: center;
+}
+.result_row{
+    text-align: center;
+}
+.result_button{
+    margin-top: 5px;
+    min-width: 150px;
+}
+.more_row{
+    text-align: center;
+}
+.result_picture__img{
+    width: 45%
+}
